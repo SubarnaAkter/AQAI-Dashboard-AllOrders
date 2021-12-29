@@ -52,12 +52,12 @@ const AllOrders = () => {
       ]
 return (
   <div>
-    <div class="row row-cols-1 row-cols-md-1 g-4 " style={{backgroundColor:'#EBE4FF'}}>
-      <div class="col">
-        <div class="card card-style">
-          <div class="card-body ps-4 pt-3">
-            <h4 class="card-title fw-bold" style={{ color: '#5530C5' }}>All Orders</h4>
-            <p class="card-text">Lorem ipsum is simply dummy.</p>
+    <div className="row row-cols-1 row-cols-md-1 g-4 " style={{backgroundColor:'#EBE4FF'}}>
+      <div className="col">
+        <div className="card card-style">
+          <div className="card-body ps-4 pt-3">
+            <h4 className="card-title fw-bold" style={{ color: '#5530C5' }}>All Orders</h4>
+            <p className="card-text">Lorem ipsum is simply dummy.</p>
             <hr />
             <h5 className='mb-4 fw-bold'>Customers Oreder Details</h5>
 
@@ -104,15 +104,15 @@ return (
 
                         {
                             allOrders.map(order => <tr className="m-3"
-                                key={order.key} >
+                                key={order.id} >
 
                                
                                 <td >{order.productName}</td>
                                 <td>{order.orderedQuantity}</td>
                                 <td>₹ {order.orderedPrice}</td>
                                 <td >
-                                     <button className="me-3 border-0 px-5 bg-white"
-                                     style={{borderRadius:'18px'}}>Booked
+                                     <button className="me-3 border-0 ps-5 bg-white"
+                                     style={{borderRadius:'18px'}}>Booked <i className="ps-3 pe-3 fas fa-angle-down"></i>
                                     </button> 
 
                                    
