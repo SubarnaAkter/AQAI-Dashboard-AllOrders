@@ -1,8 +1,25 @@
-.custom-list {
-  color: #fff;
- background-color: #5F3ECB;
- width:100%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+.sidebar {
+ 
+  position: sticky;
+   top:0;
+}
+.nav-style:hover{
+ background-color: white;
+ color:#5F3ECB  ;
+ font-weight: 800;
+}
+.nav-style{
+  color: white ;
+  background-color: #5F3ECB;
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  text-decoration: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
  
 }

@@ -64,7 +64,7 @@ return (
             <div className="ms-3 row shadow-sm p-2">
              
               <div className="col">
-                <p className='text-info fw-bold'>Billing Address</p>
+                <p className='text-danger  fw-bold'>Billing Address</p>
                 <div className='lh-1'>
                 <p className='fw-bold'>Name: {billingAddress.name}</p>
                   <p className='fw-bold'>Mobile No.:{billingAddress.mobileNo}</p>
@@ -75,7 +75,7 @@ return (
                 </div>
               </div>
               <div className="col">
-                <p className='text-danger fw-bold'>Delivery Address</p>
+                <p className='text-info fw-bold'>Delivery Address</p>
                 <div className='lh-1'>
                   <p className='fw-bold'>Order Id: {delivaryAddress.orderId}</p>
                   <p className='fw-bold'>SO No.:{delivaryAddress.sONo}</p>

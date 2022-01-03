@@ -1,4 +1,5 @@
 // import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import AllOrders from './Pages/AllOrders/AllOrders';
 import Navigation from './Pages/Shared/Navigation';
@@ -6,14 +7,15 @@ import Navigation from './Pages/Shared/Navigation';
 function App() {
   return (
     <div>
-      <Navigation/>
-       {/* <BrowserRouter>
+     
+       <BrowserRouter>
+       <Navigation/>
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="expenses" element={<AllOrders />} />
+      
+      {/* <Route path="/dashboard/allOrders" element={<AllOrders />} /> */}
    
     </Routes>
-  </BrowserRouter> */}
+  </BrowserRouter>
     </div>
   );
 }
